@@ -1,0 +1,18 @@
+name = "privelte"
+pages_build_output_dir = ".svelte-kit/cloudflare"
+compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-05-28"
+
+[env.production]
+compatibility_date = "2024-05-28"
+
+[env.production.vars]
+PUBLIC_PRIVELTE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlpcG91cHNpb21xbHdqdGFwcWRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTk2MjI2OTAsImV4cCI6MjAxNTE5ODY5MH0.6LWg_qws0-mJPdeLUoZPquljEtaHkYKHrhduB0kkUyA"
+PUBLIC_PRIVELTE_SUPABASE_URL = "https://yipoupsiomqlwjtapqda.supabase.co"
+
+[env.preview]
+compatibility_date = "2024-05-28"
+
+[env.preview.vars]
+PUBLIC_PRIVELTE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlpcG91cHNpb21xbHdqdGFwcWRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTk2MjI2OTAsImV4cCI6MjAxNTE5ODY5MH0.6LWg_qws0-mJPdeLUoZPquljEtaHkYKHrhduB0kkUyA"
+PUBLIC_PRIVELTE_SUPABASE_URL = "https://yipoupsiomqlwjtapqda.supabase.co"
